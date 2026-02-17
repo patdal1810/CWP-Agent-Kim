@@ -1,4 +1,4 @@
-# CWP Know-All Agent (RAG Assistant)
+# CWP Agent Kim (RAG Assistant)
 
 An agent that answers questions about **CWP
 Academy** using uploaded company documents (PDF + DOCX) with
@@ -41,7 +41,7 @@ Academy** using uploaded company documents (PDF + DOCX) with
 
 ### 1. Clone repo
 
-    git clone <YOUR_REPO_URL>
+    git clone https://github.com/patdal1810/CWP-Agent-Kim.git
     cd company-rag-agent
 
 ### 2. Create environment
@@ -84,13 +84,13 @@ Put company docs in:
 -   How can someone contact CWP Academy?
 -   How does enrollment work?
 
-## 🔒 Notes
+## Notes
 
 -   Vector database stored locally in `data/chroma/`
 -   `.env` and local data are excluded from GitHub
 -   Assistant answers only using provided documents
 
-## 🌟 Future Improvements
+## Future Improvements
 
 -   Upload documents directly from UI
 -   Highlight exact evidence used in answers
@@ -98,7 +98,7 @@ Put company docs in:
 -   Auth login for internal company usage
 -   Deploy to Streamlit Cloud or Render
 
-## 🏷️ Portfolio Use
+## Portfolio Use
 
 This project demonstrates: - RAG system design - Vector search
 implementation - AI agent architecture - Production-ready UI - Document
@@ -106,6 +106,6 @@ intelligence pipelines
 
 Perfect for showcasing AI engineering and LLM application skills.
 
-## 📜 License
+## License
 
 MIT
