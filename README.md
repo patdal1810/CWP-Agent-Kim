@@ -1,8 +1,19 @@
 # CWP Agent Kim (RAG Assistant)
 
 An agent that answers questions about **CWP
-Academy** using uploaded company documents (PDF + DOCX) with
+Academy** using ingested company documents (PDF + DOCX) with
 **citations**.
+
+### CWP Agent Kim Interface
+![UI](assets/screenshots/screen_one.png)
+
+
+### Streaming Responses (Real-time)
+![Streaming](assets/screenshots/screen.png)
+
+
+### Smart Answers with Citations
+![Answer](assets/screenshots/citation.png)
 
 ## Demo (What it does)
 
@@ -12,9 +23,11 @@ Academy** using uploaded company documents (PDF + DOCX) with
 -   Shows which sources/chunks were used
 -   Includes FAQ quick buttons (Refund, Pricing, Courses, Contact, etc.)
 
+
 ## Tech Stack
 
 -   Python
+-   FastApi
 -   Streamlit (Chat UI)
 -   ChromaDB (Vector database)
 -   OpenAI Embeddings + Chat Model
@@ -76,7 +89,7 @@ Put company docs in:
 
     streamlit run app.py
 
-## 💬 Example Questions
+## Example Questions
 
 -   What is CWP Academy's refund policy?
 -   What courses are offered?
@@ -96,15 +109,8 @@ Put company docs in:
 -   Highlight exact evidence used in answers
 -   Multi-company support
 -   Auth login for internal company usage
--   Deploy to Streamlit Cloud or Render
+-   Deploy to Cloud or Render
 
-## Portfolio Use
-
-This project demonstrates: - RAG system design - Vector search
-implementation - AI agent architecture - Production-ready UI - Document
-intelligence pipelines
-
-Perfect for showcasing AI engineering and LLM application skills.
 
 ## License
 

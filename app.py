@@ -169,7 +169,7 @@ st.markdown(
     """
     <div class="topbar">
       <div class="brand">CWP Agent Kim</div>
-      <div class="hint">  Ask anything about CWP Academy • grounded in your documents</div>
+      <div class="hint">  Ask anything about CWP Academy</div>
     </div>
     <div class="divider"></div>
     """,
@@ -182,8 +182,8 @@ with col_a:
     if st.button("🧹 Clear chat"):
         st.session_state.messages = []
         st.rerun()
-with col_b:
-    st.caption("Ingest docs with: `python ingest.py` (PDF/DOCX in `data/raw/`)")
+# with col_b:
+    #st.caption("Ingest docs with: `python ingest.py` (PDF/DOCX in `data/raw/`)")
 
 # State 
 if "messages" not in st.session_state:
